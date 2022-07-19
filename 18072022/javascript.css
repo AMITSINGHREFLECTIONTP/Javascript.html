@@ -1,0 +1,26 @@
+.body {
+    background-color: yellowgreen;
+}
+
+
+.parent {
+    background-color: black;
+    color: tomato;
+    max-width: 300px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.button {
+    background-color: grey;
+    font-size: 30px;
+    padding: 0px 15px;
+    margin: 10px;
+}
+
+.input {
+    background-color: #eee;
+    font-size: 24px;
+    text-align: center;
+    margin: 10px 0px;
+}
