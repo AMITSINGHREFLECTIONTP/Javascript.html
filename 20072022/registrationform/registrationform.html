@@ -1,0 +1,63 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="registrationform.css">
+</head>
+
+<body>
+    <form>
+        <div class="parent">
+            <h2 class="h2"><u>REGISTR/-\TIO|\| FOR|\/|</u></h2>
+
+            <div>
+                <input type="text" class="main" placeholder="First Name" id="firstname">
+                <div id="firstnameError" class="Error-text"></div>
+            </div>
+            <div>
+                <input type="text" class="main" placeholder="Last Name" id="lastname">
+                <div id="lastnameError" class="Error-text"></div>
+            </div>
+
+            <div>
+                <input type="date" class="dob main" placeholder="D.O.B" id="dateofbirth">
+                <div id="dateofbirthError" class="Error-text"></div>
+            </div>
+            <div>
+                <input type="number" class="main" placeholder="Contact No" id="contactno">
+                <div id="contactnoError" class="Error-text"></div>
+            </div>
+            <div>
+                <input type="text" class="main" placeholder="Country" id="country">
+                <div id="countryError" class="Error-text"></div>
+            </div>
+            <div>
+                <input type="email" class="main" placeholder="Email" id="email">
+                <div id="emailError" class="Error-text"></div>
+            </div>
+            <div>
+                <input type="password" class="main" placeholder="Password" id="password">
+                <div id="passwordError" class="Error-text"></div>
+            </div>
+            <div>
+                <input type="password" class="main" placeholder="Confirm Password" id="confirm">
+                <div id="confirmError"></div>
+            </div>
+            <div>
+                <input type="checkbox">I accept the Terms of Use & Privacy Policy
+            </div>
+            <div class="button-parent"><button type="button" class="button" onclick="register()">Register</button></div>
+        </div>
+
+    </form>
+
+
+
+
+    <script src="registrationform.js"></script>
+</body>
+
+</html>

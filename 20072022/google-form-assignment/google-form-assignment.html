@@ -1,0 +1,72 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="google-form-assignment.css">
+</head>
+
+
+<body>
+    <div class="parent">
+        <div class="inner-parent">
+            <div class="left-section">
+                <div class="image"><img src="image google.jpg" alt=""></div>
+
+                <h2 class="heading">Create your Google Account</h2>
+
+                <p>to continue to Gmail</p>
+
+                <div class="input-parent  parrot">
+                    <div class="important"><input type="text" placeholder="First name" class="input-padding"
+                            id="firstname">
+                        <div class="error-message" id="firstnameError"></div>
+                    </div>
+
+                    <div> <input type="text" placeholder="Last name" class="input-padding" id="lastname">
+                        <div class="error-message" id="lastnameError"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <input class="username " type="text" placeholder="Username" id="username">
+                    <div class="error-message" id="usernameError"></div>
+                    <div class="text-input-bottom">You can use letters, numbers & periods </div>
+                </div>
+                <div>
+                    <div class="bottom-padd">
+                        <div class="important"><input type="password" placeholder="Password"
+                                class="input-padding   bottom-padd" id="password">
+                            <div class="error-message" id="passwordError"></div>
+                        </div>
+                        <div> <input type="password" placeholder="Confirm" class="input-padding bottom-padd"
+                                id="confirm">
+                            <div class="error-message" id="confirmError"></div>
+                        </div>
+                    </div>
+
+                    <div class="text-input-bottom">
+                        Use 8 or more characters with a mix of letters, numbers & <br>symbols
+                    </div>
+                </div>
+                <div>
+                    <input type="checkbox" class="checkbox">
+                    <label class="show-password">Show password</label>
+                </div>
+                <div class="input-parent">
+                    <span class="sign">Sign in instead</span>
+                    <span><button class="button" type="button" onclick="next()">Next</button></span>
+                </div>
+            </div>
+            <div class="right-section"><img src="google profile image.jpg" class="main-image" alt="">
+                <div class="profile-text">One account. All of Google <br>working for you.</div>
+            </div>
+        </div>
+        <div id="successfully"></div>
+    </div>
+    <script src="google-form-assignment.js"></script>
+</body>
+
+</html>
