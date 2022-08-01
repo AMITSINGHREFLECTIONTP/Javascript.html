@@ -33,10 +33,17 @@ function next() {
     
 
     
-    else{document.getElementById('successfully').innerHTML= 'Hi Amit'
+    
+else {
+    var firstname = document.getElementById('firstname').value;    
+    var lastname = document.getElementById('lastname').value;
+    var username = document.getElementById('username').value;
+    sessionStorage.setItem('firstname',firstname);
+    sessionStorage.setItem('lastname',lastname);    
+    sessionStorage.setItem('username',username);    
+    location.href='session.html';
 
-    }
 
 }
-
+}
 

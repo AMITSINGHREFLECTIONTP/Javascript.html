@@ -1,0 +1,20 @@
+.local-parent {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    background-color: yellowgreen;
+    color: rgb(14, 15, 15);
+    margin: 0 auto;
+    height: 500px;
+}
+
+.name {
+    border: 2px solid red;
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 10px;
+}
+
+.school {
+    margin: 20px;
+}

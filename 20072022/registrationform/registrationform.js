@@ -1,4 +1,4 @@
-function register(){
+/*function register(){
     var firstname = document.getElementById('firstname').value;
     var lastname = document.getElementById('lastname').value;
     var dateofbirth = document.getElementById('dateofbirth').value;
@@ -39,5 +39,20 @@ function register(){
     }
     else if(confirm == ''){
         document.getElementById('confirmError').innerHTML = 'please confirm your password';
-    }
+    }*/
+
+    function register(){
+
+    var firstname = document.getElementById('firstname').value;
+    var lastname = document.getElementById('lastname').value;
+   
+    
+    localStorage.setItem('firstname',firstname);
+    localStorage.setItem('lastname',lastname);
+
+    location.href='storage.html';
+
+
+
+    
 }

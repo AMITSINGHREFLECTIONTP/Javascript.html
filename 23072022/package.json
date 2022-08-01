@@ -1,0 +1,12 @@
+{
+  "name": "23072022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "loop.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node-sass -o styles loop.scss"
+  },
+  "author": "",
+  "license": "ISC"
+}

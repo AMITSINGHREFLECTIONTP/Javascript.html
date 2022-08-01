@@ -1,0 +1,32 @@
+
+
+
+var a = 1;
+var amit = '';
+
+
+while (a <= 10) {
+    amit += a*7 + '<br>';
+    a++;
+}
+
+document.getElementById('amit').innerHTML = amit;
+
+
+var b = 1;
+var aman = "";
+do {
+    aman += + b*7 + '<br>';
+    b++;
+
+}
+while (b <= 10);
+
+document.getElementById('aman').innerHTML = aman;
+
+var ashok = '';
+
+for (var c = 1; c <= 10; c++) {
+    ashok += c*7 + '<br>' ;
+}
+document.getElementById('ashok').innerHTML = ashok;

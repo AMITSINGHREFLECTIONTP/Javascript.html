@@ -1,0 +1,1 @@
+document.getElementById('session').innerHTML=sessionStorage.getItem('session');

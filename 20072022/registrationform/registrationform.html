@@ -14,40 +14,47 @@
             <h2 class="h2"><u>REGISTR/-\TIO|\| FOR|\/|</u></h2>
 
             <div>
-                <input type="text" class="main" placeholder="First Name" id="firstname">
+                <input type="text" required class="main" placeholder="First Name" id="firstname">
                 <div id="firstnameError" class="Error-text"></div>
             </div>
             <div>
-                <input type="text" class="main" placeholder="Last Name" id="lastname">
+                <input type="text" required class="main" placeholder="Last Name" id="lastname">
                 <div id="lastnameError" class="Error-text"></div>
             </div>
 
             <div>
-                <input type="date" class="dob main" placeholder="D.O.B" id="dateofbirth">
+                <input type="date" required class="dob main" placeholder="D.O.B" id="dateofbirth">
                 <div id="dateofbirthError" class="Error-text"></div>
             </div>
             <div>
-                <input type="number" class="main" placeholder="Contact No" id="contactno">
+                <input type="number" required class="main" placeholder="Contact No" id="contactno">
                 <div id="contactnoError" class="Error-text"></div>
             </div>
             <div>
-                <input type="text" class="main" placeholder="Country" id="country">
+                <select type="text" required class="main list" placeholder="Country" id="country">
+                    <option>India</option>
+                    <option>America</option>
+                    <option>Australia</option>
+                    <option>Indoneasia</option>
+                    <option>Russia</option>
+                    <option>China</option>
+                </select>
                 <div id="countryError" class="Error-text"></div>
             </div>
             <div>
-                <input type="email" class="main" placeholder="Email" id="email">
+                <input type="email" required class="main" placeholder="Email" id="email">
                 <div id="emailError" class="Error-text"></div>
             </div>
             <div>
-                <input type="password" class="main" placeholder="Password" id="password">
+                <input type="password" required class="main" placeholder="Password" id="password">
                 <div id="passwordError" class="Error-text"></div>
             </div>
             <div>
-                <input type="password" class="main" placeholder="Confirm Password" id="confirm">
+                <input type="password"required class="main" placeholder="Confirm Password" id="confirm">
                 <div id="confirmError"></div>
             </div>
             <div>
-                <input type="checkbox">I accept the Terms of Use & Privacy Policy
+                <input type="checkbox" required>I accept the Terms of Use & Privacy Policy
             </div>
             <div class="button-parent"><button type="button" class="button" onclick="register()">Register</button></div>
         </div>
