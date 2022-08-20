@@ -1,0 +1,7 @@
+.images{display: none;}
+.tab{border: 1px solid black;padding: 20px;margin: 0 auto;width: 500px;text-align: center;border-radius: 30px;}
+.nav,.nav1,.nav2{border: 1px solid red;padding: 10px;margin: 0 10px;border-radius: 20px;}
+.banners{text-align: center;}
+.main-image{width: 100%;}
+.block{display: block;}
+.none{display: none;}
