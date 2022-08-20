@@ -1,0 +1,31 @@
+.parent {
+    background-color: darkcyan;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center
+}
+
+;
+
+.but {
+    padding: 10px
+}
+
+;
+
+.fnum {
+    padding: 20px;
+    background-color: cornflowerblue;
+}
+
+.answer {
+    border: 1px solid grey;
+    margin: 10px 166px;
+    background-color: goldenrod;
+}
+
+.heading {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
