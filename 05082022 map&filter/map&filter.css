@@ -1,0 +1,26 @@
+td {
+    border: 1px solid grey;
+    color: yellowgreen;
+}
+
+table {
+    border: 1px solid gray;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.spa {
+    border: 1px solid gray;
+    background-color: chartreuse;
+}
+
+input {
+    padding :32px 17px 20px 12px;
+    width: 100%;
+    max-width: 416px;
+    background-color: lightgray;
+    color: palevioletred;
+    text-align: center;
+    font-size: 25px;
+}
+.parent{box-shadow: 0px 0px 10px 0px;max-width: 400px;margin: 0 auto;}
