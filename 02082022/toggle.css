@@ -1,0 +1,54 @@
+.pic,
+.pic1,
+.pic2,
+.pic3 {
+    display: none;
+    text-align: center;
+    max-width: 500px;
+}
+
+.heading {
+    position: relative;
+    height: 700px;
+    max-width: 200px;
+    border: 1px solid red;
+    padding: 20px 40px;
+    border-radius: 30px;
+    text-align: center;
+    background-image: linear-gradient(to right, blue, green, tomato, pink);
+}
+
+.transport:hover {
+    color: darkslategray;
+    font-weight: bold;
+    font-size: 50px;
+    background-color: cornflowerblue;
+}
+
+.cycle,
+.bike,
+.thar,
+.train {
+    border: 2px solid orangered;
+    background-image: linear-gradient(to right, red, yellow);
+    padding: 10px 30px;
+    margin: 10px 20px;
+    font-size: 30px;
+    border-radius: 10%;
+}
+
+.images {position: absolute;
+    width: 600px;
+    
+    margin: -665px -7px;
+}
+
+.main-images {
+    width: 100%;
+}
+
+.parent {
+    background-color: darkgray;
+    box-shadow: 27PX 24PX 37PX 1PX grey;
+    margin: 0 290px;
+}
