@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cavas</title>
+    <link rel="stylesheet" href="canvas.css">
+</head>
+
+<body>
+    <div class="can">
+
+        <h1>Canvas Product</h1>
+
+        <div class="canvas-wraper">
+            <canvas id='tshirtImg' height='410px' width='410px'></canvas>
+        </div>
+        <div class="fontsZ">
+            <div>
+                <input id="fontclr" type="text" placeholder="Font color" />
+            </div>
+            <div>
+                <input id="arcClr" type="text" placeholder="Arc color" />
+            </div>
+            <div>
+                <input id="fontSz" type="text" value="35" />
+            </div>
+
+            <div><button onclick="addfont()">Modify</button></div>
+        </div>
+
+    </div>
+    <script src="canvas.js"></script>
+</body>
+
+</html>

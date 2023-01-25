@@ -1,0 +1,24 @@
+.inner-par{
+    margin: 0 auto;
+    max-width: 440px;
+    width: 100%;
+}
+.dow{
+    background-color: lavender;
+    padding: 10px 0;
+}
+.d-one{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+.d-two{
+    justify-content: space-between;
+    display: flex;
+    padding: 10px 0;
+
+}
+body{
+    font-family: sans-serif;
+}
+    
